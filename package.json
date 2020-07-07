@@ -37,7 +37,7 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "1.15.4",
+    "@graphql-codegen/cli": "1.16.3",
     "@graphql-codegen/typescript": "1.15.4",
     "@graphql-codegen/typescript-resolvers": "1.15.4",
     "@types/cls-hooked": "^4.3.0",
