@@ -44,7 +44,7 @@
     "@graphql-codegen/typescript-resolvers": "1.17.9",
     "@types/bcrypt": "^3.0.0",
     "@types/cls-hooked": "^4.3.1",
-    "@types/hapi__joi": "^17.1.4",
+    "@types/hapi__joi": "^17.1.5",
     "@types/jsonwebtoken": "^8.5.0",
     "@types/koa": "^2.11.4",
     "@types/koa-helmet": "^5.2.0",
