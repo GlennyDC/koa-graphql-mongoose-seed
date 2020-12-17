@@ -9,6 +9,8 @@ import { rolePermissions } from './rolePermissions';
  *
  * @param {Koa.Context} ctx - Koa context
  */
+// TODO: Can TS 3.7 assertion functions help with this?
+// https://2ality.com/2020/06/type-guards-assertion-functions-typescript.html#example-assertion-function%3A-adding-properties-to-an-object
 export const assertAuthenticated = (ctx: Koa.Context): void => {
   if (!ctx.state.authToken)
     throw new AuthenticationError(
